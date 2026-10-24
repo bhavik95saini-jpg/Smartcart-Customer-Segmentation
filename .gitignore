@@ -219,7 +219,5 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-git rm --cached customers.csv
-git add .gitignore
-git commit -m "Ignore CSV dataset"
-git push
+# Ignore all CSV files
+*.csv
